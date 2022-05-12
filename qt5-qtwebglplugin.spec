@@ -14,9 +14,12 @@ Source0:	https://download.qt.io/official_releases/qt/5.15/%{version}/submodules/
 URL:		https://www.qt.io/
 BuildRequires:	Qt5Core-devel >= %{qtbase_ver}
 BuildRequires:	Qt5DBus-devel >= %{qtbase_ver}
+BuildRequires:	Qt5EventDispatcherSupport-devel >= %{qtbase_ver}
+BuildRequires:	Qt5FontDatabaseSupport-devel >= %{qtbase_ver}
 BuildRequires:	Qt5Gui-devel >= %{qtbase_ver}
 BuildRequires:	Qt5Network-devel >= %{qtbase_ver}
 BuildRequires:	Qt5Quick-devel >= %{qtdeclarative_ver}
+BuildRequires:	Qt5ThemeSupport-devel >= %{qtbase_ver}
 BuildRequires:	Qt5WebSockets-devel >= %{qtwebsockets_ver}
 BuildRequires:	fontconfig-devel
 BuildRequires:	freetype-devel >= 2
