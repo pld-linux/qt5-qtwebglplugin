@@ -27,7 +27,7 @@ BuildRequires:	glib2-devel >= 2.0
 BuildRequires:	pkgconfig
 BuildRequires:	qt5-build >= %{qtbase_ver}
 BuildRequires:	qt5-qmake >= %{qtbase_ver}
-BuildRequires:	rpmbuild(macros) >= 1.752
+BuildRequires:	rpmbuild(macros) >= 2.016
 BuildRequires:	tar >= 1:1.22
 BuildRequires:	xz
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -71,7 +71,7 @@ Wtyczka platformy WebGL do biblioteki Qt5 Gui.
 %setup -q -n %{orgname}-everywhere-src-%{version}
 
 %build
-qmake-qt5
+%{qmake_qt5}
 %{__make}
 
 %install
