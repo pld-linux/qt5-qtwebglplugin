@@ -5,12 +5,12 @@
 Summary:	The Qt5 WebGL platform plugin
 Summary(pl.UTF-8):	Wtyczka platformy Qt5 WebGL
 Name:		qt5-%{orgname}
-Version:	5.15.10
+Version:	5.15.11
 Release:	1
 License:	GPL v3+ or commercial
 Group:		X11/Libraries
 Source0:	https://download.qt.io/official_releases/qt/5.15/%{version}/submodules/%{orgname}-everywhere-opensource-src-%{version}.tar.xz
-# Source0-md5:	7e3c028e3dcf758ab2a05aa926e75100
+# Source0-md5:	7495a4b6bf82a84acf2bb2c9af870870
 URL:		https://www.qt.io/
 BuildRequires:	Qt5Core-devel >= %{qtbase_ver}
 BuildRequires:	Qt5DBus-devel >= %{qtbase_ver}
